@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Profile
+		</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		
+		<link href="profile.style.client.css" rel="stylesheet" type="text/css" />
+			
+		
+	</head>
+	<body>
+		<div id="container">
+			<h1>Profile</h1>
+			<form>
+				<div class="form-group row">
+					<label for="username" class="col-sm-2 col-form-label">
+						Username:
+					</label>
+					<div class="col-sm-10">
+						<input class="form-control wbdv-field wbdv-username"
+				                 id="username">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="phone" class="col-sm-2 col-form-label">
+						Phone: 
+					</label>
+					<div class="col-sm-10">
+						<input class="form-control wbdv-field wbdv-phone"
+				                 id="phone">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="email" class="col-sm-2 col-form-label">
+						Email:
+					</label>
+					<div class="col-sm-10">
+						<input class="form-control wbdv-field wbdv-email"
+				                 id="email">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="DoB" class="col-sm-2 col-form-label">
+						Date of Birth:
+					</label>
+					<div class="col-sm-10">
+						<input class="form-control wbdv-field wbdv-dob" type="date" placeholder="mm/dd/yyyy">
+					</div>
+				</div>
+				
+				<div class="form-group row">
+					<label for="DoB" class="col-sm-2 col-form-label">
+						Role:
+					</label>
+					<div class="col-sm-10">
+						<select class="form-control  wbdv-field wbdv-role">
+							<option value="null" ></option>
+							<option value="Faculty" >Faculty</option>
+							<option value="Student"> Student</option>
+							<option value="Admin">Admin</option> 
+						</select>
+					</div>
+				</div>	
+			</form>
+			
+			
+			<button id="updateBtn" class="wbdv-button wbdv-update">Update</button>
+			<button id="logoutBtn" class="wbdv-button wbdv-logout">Logout</button>
+			<div class="alertFld wbdv-message">
+			</div>
+		</div>
+		
+
+	</body>
+</html>

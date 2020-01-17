@@ -1,0 +1,54 @@
+body{
+	text-align: center;
+}
+#title{
+	background: dimgray;
+}
+.row{
+	height: 60px;
+}
+.col-md-4{
+	background: dimgray;
+	border: 0;
+}
+a{
+	margin: 10px;
+	color: white;
+}
+.topic{
+	background: dimgray;
+	color: white;
+}
+.lesson{
+	color: #000000;
+}
+.list-group-item{
+	margin: 10px;
+	background: gray;
+}
+.list-group{
+	background: black;
+}
+#save{
+	border: 0;
+	background: green;
+	height: 35px;
+}
+#preview{
+	border: 0;
+	margin: 2px;
+}
+#saveline{
+	text-align: right;
+	margin: 5px;
+}
+#box{
+	border: 1px solid;	
+	width: 700px;
+	height: 400px;
+	margin: 10px auto;
+			
+}
+li{
+	text-align: left;
+}

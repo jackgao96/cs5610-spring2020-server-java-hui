@@ -1,0 +1,32 @@
+#container{
+	margin: 100px;
+	text-align: center;
+	width: 500px;
+	height: 500px;
+}
+h1{
+	text-align: left;
+}
+#updateBtn{
+	border: 0;
+	width: 500px;
+	height: 60px;
+	background: lightgreen;
+}
+#logoutBtn{
+	border: 0;
+	width: 500px;
+	height: 60px;
+	background: lightcoral;
+}
+			
+select{
+	border: 1px solid;
+	
+}
+option{
+	background: gainsboro;
+}
+label{
+	text-align: left;
+}
