@@ -29,9 +29,20 @@
 				margin: 8px;
 			}
 			#moditydate li{
+
 				margin: 8px;
 			}
 			#delete button{
 				margin: 3px;
 				border: 0;
+			}
+			.wbdv-button-right{
+				color: red;
+				left: 50px;
+			}
+			.wbdv-btbottom-right{
+				color: red;
+				position: fixed;
+				bottom: 20px;
+				right: 20px;
 			}
