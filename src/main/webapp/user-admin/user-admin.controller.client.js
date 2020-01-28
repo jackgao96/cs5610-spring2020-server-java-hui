@@ -54,8 +54,8 @@
 	}
 	
 	const deleteUser = position => {
-		//let user = users[position]
-		let user = users[index]
+		let user = users[position]
+		//let user = users[index]
 		let _id = user._id
 		
 		userService.deleteUser(_id)
